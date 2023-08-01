@@ -21,11 +21,11 @@
   }
   
   .title {
-    font-size: 36px;
-    font-weight: 600;
+    font-size: 24px;
+    font-weight: bold;
     color: #ffffff;
     text-align: center;
-    padding: 23px 8px;
+    padding: 18px 8px;
     border-radius: 5px;
     background-color: #ffb673;
     width: 80px;
@@ -33,7 +33,7 @@
   
   .score, .best-score {
     text-align: center;
-    padding: 10px;
+    padding: 8px;
     border-radius: 5px;
     background-color: #bbada0;
     width: 100px;
@@ -41,13 +41,13 @@
   
   .score h3, .best-score h3 {
     margin: 0;
-    font-size: 20px;
+    font-size: 14px;
     color: #f8f1f1;
   }
   
   .score p, .best-score p {
     margin: 0;
-    font-size: 36px;
+    font-size: 24px;
     font-weight: bold;
     color: #fff;
   }
