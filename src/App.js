@@ -1,5 +1,4 @@
 import React, { useState, useEffect, useCallback } from 'react';
-// import { Motion, spring } from 'react-motion';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import { useSwipeable } from 'react-swipeable';
 import ScoreBoard from './components/ScoreBoard/ScoreBoard';
