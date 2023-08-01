@@ -1,0 +1,49 @@
+.container{
+    padding-top: 10vh;
+}
+.mobile-notice {
+    text-align: center;
+    color: #776e65;
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+.score-board {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 360px;
+    margin-bottom: 20px;
+  }
+  
+  .title {
+    font-size: 36px;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: center;
+    padding: 23px 8px;
+    border-radius: 5px;
+    background-color: #ffb673;
+    width: 80px;
+  }
+  
+  .score, .best-score {
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #bbada0;
+    width: 100px;
+  }
+  
+  .score h3, .best-score h3 {
+    margin: 0;
+    font-size: 20px;
+    color: #f8f1f1;
+  }
+  
+  .score p, .best-score p {
+    margin: 0;
+    font-size: 36px;
+    font-weight: bold;
+    color: #fff;
+  }
+  

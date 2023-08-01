@@ -1,38 +1,102 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: flex-start;
+  height: 100vh;
+  margin: 0;
+  background-color: #faf8ef;
 }
 
-.App-link {
-  color: #61dafb;
+.app {
+  background-color: #bbada0;
+  border: 5px solid #bbada0;
+  border-radius: 6px;
+  width: 360px; 
+  height: 360px; 
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Создаем 4 колонки */
+  grid-template-rows: repeat(4, 1fr);    /* Создаем 4 строки */
+  gap: 5px;                             /* Добавляем промежуток между плитками */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.tile {
+  background-color: #cdc1b4;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  font-weight: bold;
+  color: #776e65;
+  transition: transform 0.2s;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  border: 2px solid #bbada0;
+}
+.tile-enter {
+  opacity: 0;
+  transform: scale(0.8); /* Начальный масштаб плитки, 80% от исходного размера */
+}
+
+.tile-enter-active {
+  opacity: 1;
+  transform: scale(1); /* Конечный масштаб плитки, исходный размер (100%) */
+  transition: opacity 1200ms, transform 1200ms; /* Плавность анимации: 200ms */
+}
+
+
+.tile-2 {
+  background-color: #eee4da;
+}
+
+.tile-4 {
+  background-color: #ede0c8;
+}
+
+.tile-8 {
+  background-color: #f2b179;
+  color: #fff;
+}
+
+.tile-16 {
+  background-color: #f59563;
+  color: #fff;
+}
+
+.tile-32 {
+  background-color: #f67c5f;
+  color: #fff;
+}
+
+.tile-64 {
+  background-color: #f65e3b;
+  color: #fff;
+}
+
+.tile-128 {
+  background-color: #edcf72;
+  color: #fff;
+  
+}
+
+.tile-256 {
+  background-color: #edcc61;
+  color: #fff;
+}
+
+.tile-512 {
+  background-color: #edc850;
+  color: #fff;
+}
+
+.tile-1024 {
+  background-color: #edc53f;
+  color: #fff;
+}
+
+.tile-2048 {
+  background-color: #edc22e;
+  color: #fff;
 }
