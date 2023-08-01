@@ -1,5 +1,9 @@
-.container{
-    padding-top: 10vh;
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    justify-content: center;
+    overflow: hidden;
 }
 .mobile-notice {
     text-align: center;

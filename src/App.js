@@ -175,7 +175,7 @@ const App = () => {
   
 
   return (
-    <div>
+    <div className='wrapper'>
       <ScoreBoard score={score} bestScore={bestScore} />
       <div className="app" {...swipeHandlers}>
         {renderTiles()}
